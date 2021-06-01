@@ -1,6 +1,6 @@
 #include "Brique.h"
 
-void update()
+void Brique::update()
 {
 
 }
