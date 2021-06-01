@@ -4,7 +4,7 @@
 
 void raquette::update(int Pos_R_X, int Pos_R_Y)
 {
-	if (getch()=='q')
+	if (getch() == 'q')
 	{
 		Pos_R_X = Pos_R_X + 1;
 		if (Pos_R_X > (Xmax - larg_R))
