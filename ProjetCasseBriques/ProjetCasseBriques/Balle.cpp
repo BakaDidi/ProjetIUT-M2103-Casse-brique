@@ -1,20 +1,18 @@
 #include "Balle.h"
 
-void rebondir_R()
+void Balle::rebondir_R()
 {
-
 }
 
-void rebondir_BR()
+void Balle::rebondir_BR()
 {
-
-}
-void rebondir_M()
-{
-
 }
 
-void update(ref int Pos_B_X, ref int Pos_B_Y, int dir)
+void Balle::rebondir_M()
+{
+}
+
+void Balle::update(ref int Pos_B_X, ref int Pos_B_Y, int dir)
 {
 	if dir == 1
 	{
@@ -37,3 +35,5 @@ void update(ref int Pos_B_X, ref int Pos_B_Y, int dir)
 		Pos_B_Y = Pos_B_Y - 1;
 	}
 }
+
+

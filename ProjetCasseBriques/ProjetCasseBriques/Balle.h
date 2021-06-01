@@ -1,3 +1,5 @@
+
+
 class Balle
 {
 public:
@@ -6,7 +8,7 @@ public:
 	void rebondir_R();
 	void rebondir_BR();
 	void rebondir_M();
-	void update();
+	void update(ref int Pos_B_X, ref int Pos_B_Y, int dir);
 private:
 	int Dir;
 	int Vitesse;
